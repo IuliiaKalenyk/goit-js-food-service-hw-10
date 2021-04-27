@@ -1,5 +1,6 @@
 import cardEat from '../templates/cards.hbs';
 import dataCards from './menu.json';
+import localestorage from './localestorage.js';
 
 const menuLayout = document.querySelector('.js-menu');
 console.log(menuLayout);
