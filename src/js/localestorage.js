@@ -32,3 +32,4 @@ function onCheckInputThemeDark(e) {
 
     localStorage.setItem(STORAGE_KEY, Theme.Dark);
 } */
+const information = e.currentTarget.value;
