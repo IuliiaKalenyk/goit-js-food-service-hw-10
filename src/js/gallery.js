@@ -4,7 +4,7 @@ import localestorage from './localestorage.js';
 
 const menuLayout = document.querySelector('.js-menu');
 console.log(menuLayout);
-const markup = cardEat(dataCards);
+const markup = createCardMarkup(dataCards);
 menuLayout.insertAdjacentHTML('beforeend', markup);
 
 
